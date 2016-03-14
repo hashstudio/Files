@@ -10,10 +10,10 @@ namespace Modules\Files\Controllers;
 
 use Mindy\Base\Mindy;
 use Mindy\Helper\Json;
-use Modules\Core\Controllers\CoreController;
+use Modules\Core\Controllers\BackendController;
 use Modules\Files\Components\EditorUploader;
 
-class EditorController extends CoreController
+class EditorController extends BackendController
 {
     /**
      * @return array
